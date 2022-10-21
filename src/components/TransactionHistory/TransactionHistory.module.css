@@ -1,0 +1,31 @@
+.transaction {
+    border: 0.1rem solid black;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+.tableList {
+
+}
+
+
+
+td {
+    border: 0.1rem solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+th {
+    border: 0.1rem solid black;
+        padding-left: 5px;
+            padding-right: 5px;
+}
+
+.head {
+    background-color: lightblue;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
