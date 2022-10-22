@@ -2,6 +2,10 @@
     display: flex;
         flex-direction: column;
         align-items: center;
+        width: 530px;
+            padding-left: 10px;
+                padding-right: 10px;
+                border: 1mm outset lightgray;
 }
 .tile {
 
@@ -11,5 +15,25 @@
 .list {
     display: flex;
     padding-left: 0;
-    
+    width: 100%;
+}
+
+.item {
+   
+    text-align: center;
+    list-style: none;
+    border: 0.1mm solid;
+    padding: 5px;
+    /* width: calc(100% / 5); */
+    flex-basis: calc(100% / 5);
+}
+
+.label {
+    display: block;
+    text-align: center;
+}
+
+.precentage {
+    display: block;
+    text-align: center;
 }

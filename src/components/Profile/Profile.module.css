@@ -1,3 +1,74 @@
 .bixy {
     padding-top: 15px;
+    width: 530px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1mm outset lightgray;
+    margin-bottom: 5px;
+}
+
+.description {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.img {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+ .stats {
+    padding-top: 18px;
+    list-style: none;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    padding-left: 0;
+    margin-top: 0;
+    width: 100%;
+
+}
+
+.list {
+    
+    /* width: calc(100% / 3);  */
+    padding: 5px;
+flex-basis: calc(100% / 3); 
+text-align: center;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap;
+    white-space: pre-wrap;  */
+    border: 0.1mm solid green; 
+background-color: rgb(178, 226, 178);
+}
+
+
+/* .stats {
+    list-style: none;
+    display: flex;
+    background-color: rgba(57, 192, 109, 0.842);
+}
+
+.item {
+    flex-basis: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 400;
+} */
+
+.text {
+    display: flex;
+    text-align: center;
+
 }
